@@ -61,6 +61,7 @@
 
 ## Features
 - [x] Fully Component With Angular
+- [x] Developed news carousel
 
 ## Technologies & Techniques
 
@@ -104,6 +105,13 @@ Runs the app in the development mode.<br/>
 | [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
 | :---------------------------------------------------------------------------------------------------------------------------------------: |
 |                                             [Linkedin](www.linkedin.com/in/felipe-aguiar-exe)                                             |
+
+---
+## Autor
+
+| [<img src="https://avatars.githubusercontent.com/u/51168082?s=400&u=7c22811a6f7c1b10ef2fa51de348b5edd772d890&v=4"><br><sub>Marcos Felipe</sub>](https://github.com/M-Felipe) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [Linkedin](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/)                                             |
 
 ---
 
