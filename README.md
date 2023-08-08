@@ -62,6 +62,7 @@
 ## Features
 - [x] Fully Component With Angular
 - [x] Developed news carousel
+- [ ] Updates coming soon
 
 ## Technologies & Techniques
 
