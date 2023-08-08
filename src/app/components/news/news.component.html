@@ -1,0 +1,20 @@
+<div class="news-container">
+  
+    <div class="news-controls">
+      <button class="control-button previous" (click)="moveLeft()"></button>
+    </div>
+
+    <div class="news">
+      <div class="news-item" *ngFor="let item of visibleItems; let i = index">
+        <div class="square">
+          <img [src]="item.icon" alt="{{ item.description }}">
+          <p class="text">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="news-controls">
+      <button class="control-button next" (click)="moveRight()"></button>
+    </div>
+
+</div>
