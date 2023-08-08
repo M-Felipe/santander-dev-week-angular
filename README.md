@@ -85,7 +85,7 @@ $ npm install
 📁 2. Change Directory
 
 ```bash
-$ cd santander-client
+$ cd santander-dev-week-angular
 ```
 
 🔧 3. Run the script
