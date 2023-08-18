@@ -61,6 +61,8 @@
 
 ## Features
 - [x] Fully Component With Angular
+- [x] Developed news carousel
+- [ ] Updates coming soon
 
 ## Technologies & Techniques
 
@@ -83,7 +85,7 @@ $ npm install
 📁 2. Change Directory
 
 ```bash
-$ cd santander-client
+$ cd santander-dev-week-angular
 ```
 
 🔧 3. Run the script
@@ -106,5 +108,10 @@ Runs the app in the development mode.<br/>
 |                                             [Linkedin](www.linkedin.com/in/felipe-aguiar-exe)                                             |
 
 ---
+## Editor
 
-⌨️ com 💜 por [Felipe Aguiar](https://github.com/felipeAguiarCode)
+| [<img src="https://avatars.githubusercontent.com/u/51168082?s=400&u=7c22811a6f7c1b10ef2fa51de348b5edd772d890&v=4"><br><sub>Marcos Felipe</sub>](https://github.com/M-Felipe) |
+| :---------------------------------------------------------------------------------------------------------------------------------------: |
+|                                             [Linkedin](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/)                                             |
+
+---
