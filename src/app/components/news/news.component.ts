@@ -19,7 +19,7 @@ export class NewsComponent implements OnInit {
 
   getNews() {
     this.service.getNews().subscribe(result => {
-      this.items = result.news;
+      this.items = result.find((s: any) => s.key === "news").items;
       this.updateVisibleItems();
     })
   }

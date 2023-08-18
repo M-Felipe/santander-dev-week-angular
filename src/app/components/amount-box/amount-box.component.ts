@@ -23,8 +23,9 @@ export class AmountBoxComponent implements OnInit {
 
   getAmountValues() {
     this.service.getAccount().subscribe(data => {
-      this.accountDetails.amountValue = data.account.balance;
-      this.accountDetails.limit = data.account.limit;
+      data = data.find((s: any) => s.key === "account");
+      this.accountDetails.amountValue = data.balance;
+      this.accountDetails.limit = data.limit;
       this.accountDetails.totalAmount = this.accountDetails.amountValue + this.accountDetails.limit;
     });
   }

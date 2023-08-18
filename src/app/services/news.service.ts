@@ -1,16 +1,21 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { environment } from '../environments/enviroments';
+import { AngularFireDatabase } from '@angular/fire/compat/database';
+import { AccountDataModel } from '../model/accountDataModel';
 
 @Injectable({
   providedIn: 'root'
 })
 export class NewsService {
-  private apiUrl = environment.API_URL;
-  constructor(private http: HttpClient) { }
+
+  constructor(private db: AngularFireDatabase) { }
 
   getNews(): Observable<any> {
-    return this.http.get<any>(this.apiUrl);
+    return this.db.list('0').snapshotChanges()
+      .pipe(map(changes => {
+        return changes.map(c => ({ key: c.payload.key, ...c.payload.val() as AccountDataModel }));
+      }));
   }
 }

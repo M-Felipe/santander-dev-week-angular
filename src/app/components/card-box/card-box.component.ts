@@ -29,11 +29,12 @@ export class CardBoxComponent implements OnInit {
 
   getAccountData() {
     this.service.getCard().subscribe(data => {
-      this.accountData.name = data.name;
-      this.accountData.account.agency = data.account.agency;
-      this.accountData.account.number = data.account.number;
-      this.accountData.card.limit = data.card.limit;
-      this.accountData.card.number = data.card.number.split(' ', 4);
+      // data = data.find((s: any) => s.key === "account");
+      this.accountData.name = data.find((s: any) => s.key === "account").name;
+      this.accountData.account.agency = data.find((s: any) => s.key === "account").agency;
+      this.accountData.account.number = data.find((s: any) => s.key === "account").number;
+      this.accountData.card.limit = data.find((s: any) => s.key === "card").limit;
+      this.accountData.card.number = data.find((s: any) => s.key === "card").number.split(' ', 4);
     });
   }
 

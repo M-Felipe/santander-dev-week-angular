@@ -6,8 +6,8 @@
 .carousel {
   display: flex;
   overflow: hidden;
-  width: 600px;
-  height: 200px;
+  width: 38rem;
+  height: 12rem;
 }
 
 .carousel-item {
