@@ -1,3 +1,4 @@
+
 <div align="center">
 
 <h1 align="center">
@@ -6,112 +7,84 @@
   Santander Home Clone - Angular
 </h1>
 
-  <!-- project badges -->
-  <p align="center">
- <!--
-   <img 
-      alt="Project programing languages count" 
-      src="https://img.shields.io/github/languages/count/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
- -->
-  <!--
-    <img 
-      alt="Last commit on GitHub" 
-      src="https://img.shields.io/github/last-commit/felipeAguiarCode/node-js-bulk-downloader?color=6A57D5"
-    >
-  -->
+<p align="center">
     <img 
         src="https://img.shields.io/badge/Code%20With-Angular%2016-E31918?logo=angular" 
         alt="Code With Angular">
-   	<img 
+    <img 
       alt="GitHub license" 
       src="https://img.shields.io/github/license/felipeAguiarCode/angular-santander-home-clone?color=E31918"
     >
-  </p> 
+</p> 
 
 <div align="center">
-  	<a href="#">
+    <a href="#">
       <img src=".github/assets/preview.png" width="400" alt="preview" />
-  	</a>
+    </a>
 </div>
 
-  <!-- project description and menu -->
-  <p align="center">
-      A Clone From Santander Card home page with Angular
+<p align="center">
+    Clone da página inicial de cartões do Santander, desenvolvido em Angular.
     <br />
-    <a 
-      href="## Usage">
-      <strong>Navigate Live Demo Now »</strong>
-    </a>
+    <a href="## Usage"><strong>Ver Demo ao Vivo »</strong></a>
     <br />
     <br />
-    <a 
-      href="https://github.com/felipeAguiarCode/
-		angular-santander-home-clone/issues">
-      Report Bug
-    </a>
+    <a href="https://github.com/felipeAguiarCode/angular-santander-home-clone/issues">Relatar Bug</a>
     ·
-    <a 
-      href="https://github.com/felipeAguiarCode/
-			angular-santander-home-clone/issues/new">
-      Request Feature
-    </a>
-  </p>
+    <a href="https://github.com/felipeAguiarCode/angular-santander-home-clone/issues/new">Solicitar Funcionalidade</a>
+</p>
 </div>
 
-## Features
-- [x] Fully Component With Angular
-- [x] Developed news carousel
-- [ ] Updates coming soon
+## Funcionalidades
+- [x] Totalmente Componentizado com Angular
+- [x] Carrossel de notícias customizado
+- [ ] Atualizações em breve
 
-## Technologies & Techniques
+## Tecnologias & Técnicas
 
-This project was developed with the following technologies:
+Este projeto foi desenvolvido utilizando:
 -   [Angular](https://angular.io)
 
+## Como Rodar
 
-## Building
+1. Instale as dependências:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+    ```bash
+    npm install
+    ```
 
-## Usage
+2. Navegue até o diretório do projeto:
 
-📦 1. Install dependencys
+    ```bash
+    cd santander-dev-week-angular
+    ```
 
-```bash
-$ npm install
-```
+3. Execute o servidor de desenvolvimento:
 
-📁 2. Change Directory
+    ```bash
+    ng serve
+    ```
 
-```bash
-$ cd santander-dev-week-angular
-```
+4. Acesse a aplicação:
 
-🔧 3. Run the script
+    ```bash
+    http://localhost:4200/
+    ```
 
-```bash
-$ ng serve
-```
-
-🌐 4. Navigate to
-
-```bash 
- http://localhost:4200/
-```
-Runs the app in the development mode.<br/>
+A aplicação rodará em modo de desenvolvimento e recarregará automaticamente ao detectar mudanças nos arquivos de origem.
 
 ## Autor
 
 | [<img src="https://avatars3.githubusercontent.com/u/37452836?s=96&v=4"><br><sub>Felipe Aguiar</sub>](https://github.com/felipeAguiarCode) |
 | :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                             [Linkedin](www.linkedin.com/in/felipe-aguiar-exe)                                             |
+| [LinkedIn](www.linkedin.com/in/felipe-aguiar-exe) |
 
 ---
-## Editor
+
+## Editor e Melhorias de Código
 
 | [<img src="https://avatars.githubusercontent.com/u/51168082?s=400&u=7c22811a6f7c1b10ef2fa51de348b5edd772d890&v=4"><br><sub>Marcos Felipe</sub>](https://github.com/M-Felipe) |
 | :---------------------------------------------------------------------------------------------------------------------------------------: |
-|                                             [Linkedin](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/)                                             |
+| [LinkedIn](https://www.linkedin.com/in/marcos-felipe-de-freitas-batista-02b745183/) |
 
 ---
